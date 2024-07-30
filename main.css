@@ -297,4 +297,8 @@ footer .footer__content .footer__copyright {
     h1 {
         font-size: 4.2rem;
     }
+
+    .skills .skills__card {
+        flex-direction: column;
+    }
 }
