@@ -229,6 +229,18 @@ header .header__right .header__img::after {
     scroll-margin-top: 15rem;
 }
 
+.projects img {
+    max-width: 200px;
+    max-height: 150px;
+    margin: 5px;
+    border-radius: 1rem;
+}
+
+.projects__card {
+    display: flex;
+    flex-direction: column;
+}
+
 .projects .projects__content {
     max-width: 56rem;
     text-align: center;
@@ -240,6 +252,8 @@ header .header__right .header__img::after {
     border-radius: 0.5rem;
     padding: 1.5rem;
     margin: 0 auto 6rem;
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
